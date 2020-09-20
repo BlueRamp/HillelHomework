@@ -1,12 +1,11 @@
-A = int(input("Input A:"))
-B = int(input("Input B:"))
-if A < B:
-    a = []
-    for i in range(A, B+1):
-        a.append(i)
-    print(a)
-if A > B:
-    b = []
-    for k in range(B, A+1):
-        b.append((A + 1) - k)
-    print(b)
+number_a = int(input("Input A:"))
+number_b = int(input("Input B:"))
+some_list = []
+if number_a < number_b:
+    for i in range(number_a, number_b+1):
+        some_list.append(i)
+    print(some_list)
+if number_a > number_b:
+    for k in range(number_b, number_a+1):
+        some_list.append((number_a + 1) - k)
+    print(some_list)
