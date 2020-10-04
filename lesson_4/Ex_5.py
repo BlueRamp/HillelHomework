@@ -1,8 +1,4 @@
-some_list = [int(i) for i in input("Enter numbers separated by spaces and press Enter:").split()]
-count = 0
-j = 1
-while j < len(some_list):
-    if some_list[j] > some_list[j-1] and some_list[j] > some_list[j+1]:
-        count += 1
-    j += 1
-print(count)
+some_string = input("Input some string:")
+print(some_string[2], some_string[len(some_string)-2], some_string[:5], some_string[:len(some_string)-3],
+      some_string[0:len(some_string):2], some_string[1:len(some_string):2], some_string[::-1],
+      some_string[::-2], len(some_string))
