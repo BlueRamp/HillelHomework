@@ -1,6 +1,6 @@
-N=int(input("Input natural number:"))
-if N>0:
-    if N%4==0 and N%100!=0 or N%400==0:
+natural_number = int(input("Input natural number:"))
+if natural_number > 0:
+    if natural_number % 4 == 0 and natural_number % 100 != 0 or natural_number % 400 == 0:
         print("YES")
     else:
         print("NO")

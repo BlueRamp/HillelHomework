@@ -1,7 +1,3 @@
-N=int(input("input number:"))
-i=0
-star=""
-while i < N:
-    star=star+"*"
-    i=i+1
-print(star)
+number = int(input("Input number:"))
+star = "*"
+print(number*star)
