@@ -1,5 +1,2 @@
-numbers = list(input("Input number:"))
-result = 0
-for i in range(len(numbers)):
-    result = result + int(numbers[i])
-print(result)
+number = input("Input number:")
+print(int(number[0])+int(number[1])+int(number[2]))
