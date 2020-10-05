@@ -25,7 +25,7 @@ while try_again == "Yes":
                     return "Prime number"
     if number > 0:
         print(is_prime(number))
-        try_again=input("if you want to try again, input \"Yes\":").capitalize()
+        try_again = input("if you want to try again, input \"Yes\":").capitalize()
     else:
         print("Please don't input negative numbers")
         try_again = input("if you want to try again, input \"Yes\":").capitalize()
